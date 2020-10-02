@@ -12,6 +12,16 @@
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" />
+        <script> 
+            function disableClick(){ 
+              document.onclick=function(event){ 
+                if (event.button == 2) { 
+                  alert('Right Click Message'); 
+                  return false; 
+                } 
+              } 
+            } 
+        </script> 
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -78,7 +88,7 @@
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
                             <h4>Sri Vignesh</h4>
-                            <p class="text-muted">Quality Engineer @ RedHat</p>
+                            <p class="text-muted">Software Engineer @ RedHat</p>
                             <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/wikkigraphy/"><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/srivickynesh/"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/sri-vignesh-s/"><i class="fab fa-linkedin-in"></i></a>
@@ -87,11 +97,6 @@
                     <div class="col-lg-4">
                         <div class="team-member">
                             <div class="col-lg-8 mx-auto text-sm-right"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <script async src="https://walls.io/js/wallsio-widget-1.2.js" data-wallurl="https://walls.io/e4ppa?theme=kiosk&amp;show_header=0&amp;lang=en_US" data-title="My social wall" data-width="435" data-height="380" data-lazyload="1"></script>
                         </div>
                     </div>
                 </div>
